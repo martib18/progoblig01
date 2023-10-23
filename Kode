@@ -1,0 +1,21 @@
+Blue_Horz = rectangle(220, 20, "solid", "darkblue")
+
+Blue_Vert = rectangle(20, 160, "solid", "darkblue")
+
+White_Horz = rectangle(220, 40, "solid", "white")
+
+White_Vert = rectangle(40, 160, "solid", "white")
+
+Red = rectangle(220, 160, "solid", "red")
+
+
+
+Step_1 = overlay-xy(White_Horz, 0,-60, Red)
+
+Step_2 = overlay-xy(White_Vert, -60,0, Step_1)
+
+Step_3 = overlay-xy(Blue_Horz, 0,-70, Step_2)
+
+Step_4 = overlay-xy(Blue_Vert, -70,0, Step_3)
+
+Step_4
